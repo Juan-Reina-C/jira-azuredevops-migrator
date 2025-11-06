@@ -1,7 +1,7 @@
 {
-  "source-project": "SourceProject",
-  "target-project": "TargetProject",
-  "query": "project=ProjectName AND issue type in (Story, Sub-task- Epic) ORDER BY Rank ASC",
+  "source-project": "SUP",
+  "target-project": "Play on the ground",
+  "query": "project=SuPerTool AND type IN (Story, Sub-task, Epic) ORDER BY Rank ASC",
   "using-jira-cloud": true,
   "jira-api-version": 3,
   "workspace": "C:\\Temp\\JiraExport\\",
@@ -192,6 +192,10 @@
             },
             {
               "source": "Done",
+              "target": "Done"
+            },
+            {
+              "source": "Closed",
               "target": "Done"
             },
             {

@@ -176,6 +176,62 @@
             {
               "source": "In Progress",
               "target": "In Progress"
+            },
+            {
+              "source": "CLOSED",
+              "target": "Done"
+            },
+            {
+              "source": "CODE REVIEW",
+              "target": "In Progress"
+            },
+            {
+              "source": "RESOLVED",
+              "target": "Done"
+            },
+            {
+              "source": "READY FOR TESTING",
+              "target": "In Progress"
+            },
+            {
+              "source": "QA TESTING",
+              "target": "In Progress"
+            },
+            {
+              "source": "On hold",
+              "target": "To Do"
+            },
+            {
+              "source": "READY TO DELIVERY",
+              "target": "In Progress"
+            },
+            {
+              "source": "REOPENED",
+              "target": "To Do"
+            },
+            {
+              "source": "ON STAGE",
+              "target": "In Progress"
+            },
+            {
+              "source": "READY TO PRODUCTION",
+              "target": "In Progress"
+            },
+            {
+              "source": "To do",
+              "target": "To Do"
+            },
+            {
+              "source": "In progress",
+              "target": "In Progress"
+            },
+            {
+              "source": "On dev",
+              "target": "In Progress"
+            },
+            {
+              "source": "Ready for staging",
+              "target": "In Progress"
             }
           ]
         }
@@ -188,6 +244,10 @@
           "values": [
             {
               "source": "To do",
+              "target": "New"
+            },
+            {
+              "source": "To Do",
               "target": "New"
             },
             {
@@ -264,11 +324,27 @@
             },
             {
               "source": "CODE REVIEW - TO DELETE",
-              "target": "New"
+              "target": "Done"
             },
             {
               "source": "RESOLVED - TO DELETE",
               "target": "Done"
+            },
+            {
+              "source": "CLOSED - TO DELETE",
+              "target": "Done"
+            },
+            {
+              "source": "READY TO PRODUCTION",
+              "target": "New"
+            },
+            {
+              "source": "In progress",
+              "target": "New"
+            },
+            {
+              "source": "Ready to production",
+              "target": "New"
             }
           ]
         }
@@ -284,6 +360,10 @@
               "target": "New"
             },
             {
+              "source": "To Do",
+              "target": "New"
+            },
+            {
               "source": "Done",
               "target": "Done"
             },
@@ -293,6 +373,10 @@
             },
             {
               "source": "In progress",
+              "target": "In Progress"
+            },
+            {
+              "source": "In Progress",
               "target": "In Progress"
             },
             {

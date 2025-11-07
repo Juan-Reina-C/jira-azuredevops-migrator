@@ -1,3 +1,5 @@
 alfredo.malledo@dreso.com=alfredo.malledo@dreso.com
 juan.reina@dreso.com=juan.reina@dreso.com
 daniele.pezzetta@dreso.com=daniele.pezzetta@dreso.com
+oliver.donnerhak@dreso.com=oliver.donnerhak@dreso.com
+mark.daub@dreso.com=mark.daub@dreso.com

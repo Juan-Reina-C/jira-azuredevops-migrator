@@ -72,7 +72,7 @@
         "target": "Product Backlog Item"
       },
       {
-        "source": "Sub-task",
+        "source": "Subtask",
         "target": "Task"
       }
     ]
@@ -187,7 +187,7 @@
         "mapping": {
           "values": [
             {
-              "source": "To Do",
+              "source": "To do",
               "target": "New"
             },
             {
@@ -195,12 +195,80 @@
               "target": "Done"
             },
             {
-              "source": "Closed",
+              "source": "CLOSED",
               "target": "Done"
+            },
+            {
+              "source": "RESOLVED",
+              "target": "Done"
+            },
+            {
+              "source": "CLOSE - TO DELETE",
+              "target": "New"
+            },
+            {
+              "source": "CODE REVIEW",
+              "target": "New"
+            },
+            {
+              "source": "On hold",
+              "target": "New"
             },
             {
               "source": "In Progress",
               "target": "Committed"
+            },
+            {
+              "source": "READY FOR TESTING",
+              "target": "New"
+            },
+            {
+              "source": "CODE REVIEW",
+              "target": "New"
+            },
+            {
+              "source": "QA TESTING",
+              "target": "New"
+            },
+            {
+              "source": "READY TO DELIVERY",
+              "target": "Done"
+            },
+            {
+              "source": "REOPENED",
+              "target": "New"
+            },
+            {
+              "source": "On dev",
+              "target": "New"
+            },
+            {
+              "source": "Ready for staging",
+              "target": "New"
+            },
+            {
+              "source": "ON STAGE",
+              "target": "New"
+            },
+            {
+              "source": "On stage",
+              "target": "New"
+            },
+            {
+              "source": "READY FOR PRODUCTION",
+              "target": "New"
+            },
+            {
+              "source": "Ready for production",
+              "target": "New"
+            },
+            {
+              "source": "CODE REVIEW - TO DELETE",
+              "target": "New"
+            },
+            {
+              "source": "RESOLVED - TO DELETE",
+              "target": "Done"
             }
           ]
         }
@@ -212,7 +280,7 @@
         "mapping": {
           "values": [
             {
-              "source": "To Do",
+              "source": "To do",
               "target": "New"
             },
             {
@@ -220,14 +288,34 @@
               "target": "Done"
             },
             {
-              "source": "In Progress",
+              "source": "CLOSED",
+              "target": "Done"
+            },
+            {
+              "source": "In progress",
               "target": "In Progress"
+            },
+            {
+              "source": "Ready to production",
+              "target": "In Progress"
+            },
+            {
+              "source": "READY FOR TESTING",
+              "target": "New"
+            },
+            {
+              "source": "QA TESTING",
+              "target": "In Progress"
+            },
+            {
+              "source": "On hold",
+              "target": "New"
             }
           ]
         }
       },
       {
-        "source": "Story Points",
+        "source": "Story point estimate",
         "source-type": "name",
         "target": "Microsoft.VSTS.Scheduling.Effort",
         "not-for": "Task"

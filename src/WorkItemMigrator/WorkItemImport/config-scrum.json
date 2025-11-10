@@ -61,7 +61,7 @@
       },
       {
         "source": "Story",
-        "target": "Product Backlog Item"
+        "target": "USER STORY"
       },
       {
         "source": "Bug",
@@ -69,11 +69,11 @@
       },
       {
         "source": "Task",
-        "target": "Product Backlog Item"
+        "target": "TASK"
       },
       {
         "source": "Subtask",
-        "target": "Task"
+        "target": "TASK"
       }
     ]
   },

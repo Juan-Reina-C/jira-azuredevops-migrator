@@ -66,7 +66,7 @@
       },
       {
         "source": "Story",
-        "target": "USER STORY"
+        "target": "User Story"
       },
       {
         "source": "Bug",

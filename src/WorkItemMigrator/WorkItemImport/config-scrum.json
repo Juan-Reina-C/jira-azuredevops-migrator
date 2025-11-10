@@ -20,13 +20,12 @@
   "ignore-empty-revisions": false,
   "suppress-notifications": false,
   "sleep-time-between-revision-import-milliseconds": 0,
-  "process-template": "Scrum",
-  
-"WorkItemTypeMappings": {
-  "Story": "User Story",
-  "Bug": "Bug",
-  "Task": "Task"
-},
+  "process-template": "Scrum",  
+  "WorkItemTypeMappings": {
+    "Story": "User Story",
+    "Bug": "Bug",
+    "Task": "Task"
+  },
   "link-map": {
     "link": [
       {

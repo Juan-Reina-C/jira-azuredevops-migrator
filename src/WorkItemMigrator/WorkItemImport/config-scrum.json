@@ -23,6 +23,7 @@
   "process-template": "Scrum",  
   "WorkItemTypeMappings": {
     "Story": "User Story",
+    "Product Backlog Item": "User Story",
     "Bug": "Bug",
     "Task": "Task"
   },
@@ -74,11 +75,15 @@
       },
       {
         "source": "Task",
-        "target": "TASK"
+        "target": "Task"
       },
       {
         "source": "Subtask",
-        "target": "TASK"
+        "target": "Task"
+      },
+      {
+      "source": "Product Backlog Item",
+      "target": "User Story"
       }
     ]
   },

@@ -66,6 +66,10 @@
         "target": "Epic"
       },
       {
+      "source": "Product Backlog Item",
+      "target": "User Story"
+      },
+      {
         "source": "Story",
         "target": "User Story"
       },
@@ -80,10 +84,6 @@
       {
         "source": "Subtask",
         "target": "Task"
-      },
-      {
-      "source": "Product Backlog Item",
-      "target": "User Story"
       }
     ]
   },

@@ -21,6 +21,12 @@
   "suppress-notifications": false,
   "sleep-time-between-revision-import-milliseconds": 0,
   "process-template": "Scrum",
+  
+"WorkItemTypeMappings": {
+  "Story": "User Story",
+  "Bug": "Bug",
+  "Task": "Task"
+},
   "link-map": {
     "link": [
       {
@@ -239,7 +245,7 @@
       {
         "source": "status",
         "target": "System.State",
-        "for": "Bug",
+        "for": "Bug, User Story",
         "mapping": {
           "values": [
             {

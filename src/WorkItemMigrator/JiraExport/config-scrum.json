@@ -20,7 +20,13 @@
   "ignore-empty-revisions": false,
   "suppress-notifications": false,
   "sleep-time-between-revision-import-milliseconds": 0,
-  "process-template": "Scrum",
+  "process-template": "Scrum",  
+  "WorkItemTypeMappings": {
+    "Story": "User Story",
+    "Product Backlog Item": "User Story",
+    "Bug": "Bug",
+    "Task": "Task"
+  },
   "link-map": {
     "link": [
       {
@@ -60,8 +66,12 @@
         "target": "Epic"
       },
       {
+        "source": "Product Backlog Item",
+        "target": "User Story"
+      },
+      {
         "source": "Story",
-        "target": "Product Backlog Item"
+        "target": "User Story"
       },
       {
         "source": "Bug",
@@ -69,7 +79,7 @@
       },
       {
         "source": "Task",
-        "target": "Product Backlog Item"
+        "target": "Task"
       },
       {
         "source": "Subtask",
@@ -239,7 +249,7 @@
       {
         "source": "status",
         "target": "System.State",
-        "for": "Bug,Product Backlog Item",
+        "for": "Bug, User Story",
         "mapping": {
           "values": [
             {

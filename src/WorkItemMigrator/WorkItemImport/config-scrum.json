@@ -96,7 +96,6 @@
       {
         "source": "description",
         "target": "System.Description",
-        "not-for": "Bug",  //Modify this line
         "mapper": "MapRendered"
       },
       {

@@ -150,6 +150,7 @@
         "source": "Sprint",
         "source-type": "name",
         "target": "System.IterationPath",
+        "for": "Bug, User Story, Task",
         "mapper": "MapSprint"
       },
       {
@@ -255,15 +256,15 @@
             },
             {
               "source": "Done",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "CLOSED",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "RESOLVED",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "CLOSE - TO DELETE",
@@ -295,7 +296,7 @@
             },
             {
               "source": "READY TO DELIVERY",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "REOPENED",
@@ -327,15 +328,15 @@
             },
             {
               "source": "CODE REVIEW - TO DELETE",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "RESOLVED - TO DELETE",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "CLOSED - TO DELETE",
-              "target": "Done"
+              "target": "Closed"
             },
             {
               "source": "READY TO PRODUCTION",
@@ -349,7 +350,8 @@
               "source": "Ready to production",
               "target": "New"
             }
-          ]
+          ],
+          "whenNotSet": { "value": "Closed" } 
         }
       },
       {
@@ -404,7 +406,7 @@
       {
         "source": "Story point estimate",
         "source-type": "name",
-        "target": "Microsoft.VSTS.Scheduling.Effort",
+        "target": "Microsoft.VSTS.Scheduling.StoryPoints",
         "not-for": "Task"
       },
       {
@@ -415,7 +417,7 @@
       },
       {
         "source": "description",
-        "target": "Microsoft.VSTS.TCM.ReproSteps",
+        "target": "Microsoft.VSTS.TCM.Description",
         "for": "Bug",
         "mapper": "MapRendered"
       }

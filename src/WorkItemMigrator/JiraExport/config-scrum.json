@@ -150,7 +150,7 @@
         "source": "Sprint",
         "source-type": "name",
         "target": "System.IterationPath",
-        "for": "Bug, User Story, Task",
+        "for": "Bug, Product Backlog Item, Story, Task",
         "mapper": "MapSprint"
       },
       {
@@ -243,7 +243,7 @@
       {
         "source": "status",
         "target": "System.State",
-        "for": "Bug, User Story",
+        "for": "Bug, Product Backlog Item. Story",
         "mapping": {
           "values": [
             {

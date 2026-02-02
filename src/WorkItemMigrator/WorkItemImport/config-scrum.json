@@ -64,7 +64,7 @@
         "target": "Product Backlog Item"
       },
       {
-        "source": "Story",
+        "source": "User Story",
         "target": "Product Backlog Item"
       },
       {

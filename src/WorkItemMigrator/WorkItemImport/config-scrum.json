@@ -61,11 +61,11 @@
       },
       {
         "source": "Product Backlog Item",
-        "target": "User Story"
+        "target": "Product Backlog Item"
       },
       {
         "source": "Story",
-        "target": "User Story"
+        "target": "Product Backlog Item"
       },
       {
         "source": "Bug",

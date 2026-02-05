@@ -243,7 +243,7 @@
       {
         "source": "status",
         "target": "System.State",
-        "for": "Bug, Product Backlog Item, Story",
+        "for": "Bug",
         "mapping": {
           "values": [
             {
@@ -268,7 +268,7 @@
             },
             {
               "source": "CLOSE - TO DELETE",
-              "target": "New"
+              "target": "Done"
             },
             {
               "source": "CODE REVIEW",
@@ -284,19 +284,19 @@
             },
             {
               "source": "READY FOR TESTING",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "CODE REVIEW",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "QA TESTING",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "READY TO DELIVERY",
-              "target": "Closed"
+              "target": "Done"
             },
             {
               "source": "REOPENED",
@@ -304,51 +304,173 @@
             },
             {
               "source": "On dev",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "Ready for staging",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "ON STAGE",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "On stage",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "READY FOR PRODUCTION",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "Ready for production",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "CODE REVIEW - TO DELETE",
-              "target": "Closed"
+              "target": "Committed"
             },
             {
               "source": "RESOLVED - TO DELETE",
-              "target": "Closed"
+              "target": "Done"
             },
             {
               "source": "CLOSED - TO DELETE",
-              "target": "Closed"
+              "target": "Done"
             },
             {
               "source": "READY TO PRODUCTION",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "In progress",
-              "target": "New"
+              "target": "Committed"
             },
             {
               "source": "Ready to production",
+              "target": "Committed"
+            },
+            {
+              "source": "DONE",
+              "target": "Done"
+            }
+          ],
+          "whenNotSet": { "value": "Done" } 
+        }
+      },
+      {
+        "source": "status",
+        "target": "System.State",
+        "for": "Product Backlog Item, Story",
+        "mapping": {
+          "values": [
+            {
+              "source": "To do",
               "target": "New"
+            },
+            {
+              "source": "To Do",
+              "target": "New"
+            },
+            {
+              "source": "Done",
+              "target": "Done"
+            },
+            {
+              "source": "CLOSED",
+              "target": "Done"
+            },
+            {
+              "source": "RESOLVED",
+              "target": "Done"
+            },
+            {
+              "source": "CLOSE - TO DELETE",
+              "target": "Done"
+            },
+            {
+              "source": "CODE REVIEW",
+              "target": "New"
+            },
+            {
+              "source": "On hold",
+              "target": "New"
+            },
+            {
+              "source": "In Progress",
+              "target": "Committed"
+            },
+            {
+              "source": "READY FOR TESTING",
+              "target": "Committed"
+            },
+            {
+              "source": "CODE REVIEW",
+              "target": "Committed"
+            },
+            {
+              "source": "QA TESTING",
+              "target": "Committed"
+            },
+            {
+              "source": "READY TO DELIVERY",
+              "target": "Committed"
+            },
+            {
+              "source": "REOPENED",
+              "target": "New"
+            },
+            {
+              "source": "On dev",
+              "target": "Committed"
+            },
+            {
+              "source": "Ready for staging",
+              "target": "Committed"
+            },
+            {
+              "source": "ON STAGE",
+              "target": "Committed"
+            },
+            {
+              "source": "On stage",
+              "target": "Committed"
+            },
+            {
+              "source": "READY FOR PRODUCTION",
+              "target": "Committed"
+            },
+            {
+              "source": "Ready for production",
+              "target": "Committed"
+            },
+            {
+              "source": "CODE REVIEW - TO DELETE",
+              "target": "Committed"
+            },
+            {
+              "source": "RESOLVED - TO DELETE",
+              "target": "Done"
+            },
+            {
+              "source": "CLOSED - TO DELETE",
+              "target": "Done"
+            },
+            {
+              "source": "READY TO PRODUCTION",
+              "target": "Committed"
+            },
+            {
+              "source": "In progress",
+              "target": "Committed"
+            },
+            {
+              "source": "Ready to production",
+              "target": "Committed"
+            },
+            {
+              "source": "DONE",
+              "target": "Done"
             }
           ],
           "whenNotSet": { "value": "Closed" } 
@@ -406,7 +528,7 @@
       {
         "source": "Story point estimate",
         "source-type": "name",
-        "target": "Microsoft.VSTS.Scheduling.StoryPoints",
+        "target": "Microsoft.VSTS.Scheduling.Effort",
         "not-for": "Task"
       },
       {

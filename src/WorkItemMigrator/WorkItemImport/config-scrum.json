@@ -539,7 +539,7 @@
       },
       {
         "source": "description",
-        "target": "Microsoft.VSTS.TCM.Description",
+        "target": "Microsoft.VSTS.TCM.ReproSteps",
         "for": "Bug",
         "mapper": "MapRendered"
       }

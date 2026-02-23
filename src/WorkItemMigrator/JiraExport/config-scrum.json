@@ -166,92 +166,14 @@
       {
         "source": "status",
         "target": "System.State",
-        "for": "Task",
         "mapping": {
           "values": [
             {
               "source": "To Do",
-              "target": "To Do"
-            },
-            {
-              "source": "Done",
-              "target": "Done"
-            },
-            {
-              "source": "In Progress",
-              "target": "In Progress"
-            },
-            {
-              "source": "CLOSED",
-              "target": "Done"
-            },
-            {
-              "source": "CODE REVIEW",
-              "target": "In Progress"
-            },
-            {
-              "source": "RESOLVED",
-              "target": "Done"
-            },
-            {
-              "source": "READY FOR TESTING",
-              "target": "In Progress"
-            },
-            {
-              "source": "QA TESTING",
-              "target": "In Progress"
-            },
-            {
-              "source": "On hold",
-              "target": "To Do"
-            },
-            {
-              "source": "READY TO DELIVERY",
-              "target": "In Progress"
-            },
-            {
-              "source": "REOPENED",
-              "target": "To Do"
-            },
-            {
-              "source": "ON STAGE",
-              "target": "In Progress"
-            },
-            {
-              "source": "READY TO PRODUCTION",
-              "target": "In Progress"
-            },
-            {
-              "source": "To do",
-              "target": "To Do"
-            },
-            {
-              "source": "In progress",
-              "target": "In Progress"
-            },
-            {
-              "source": "On dev",
-              "target": "In Progress"
-            },
-            {
-              "source": "Ready for staging",
-              "target": "In Progress"
-            }
-          ]
-        }
-      },
-      {
-        "source": "status",
-        "target": "System.State",
-        "for": "Bug, Product Backlog Item, Story",
-        "mapping": {
-          "values": [
-            {
-              "source": "To do",
               "target": "New"
             },
-            {
-              "source": "To Do",
+             {
+              "source": "To do",
               "target": "New"
             },
             {
@@ -350,57 +272,9 @@
               "source": "Ready to production",
               "target": "New"
             }
+            
           ],
           "whenNotSet": { "value": "Closed" } 
-        }
-      },
-      {
-        "source": "status",
-        "target": "System.State",
-        "for": "Epic,Feature",
-        "mapping": {
-          "values": [
-            {
-              "source": "To do",
-              "target": "New"
-            },
-            {
-              "source": "To Do",
-              "target": "New"
-            },
-            {
-              "source": "Done",
-              "target": "Done"
-            },
-            {
-              "source": "CLOSED",
-              "target": "Done"
-            },
-            {
-              "source": "In progress",
-              "target": "In Progress"
-            },
-            {
-              "source": "In Progress",
-              "target": "In Progress"
-            },
-            {
-              "source": "Ready to production",
-              "target": "In Progress"
-            },
-            {
-              "source": "READY FOR TESTING",
-              "target": "New"
-            },
-            {
-              "source": "QA TESTING",
-              "target": "In Progress"
-            },
-            {
-              "source": "On hold",
-              "target": "New"
-            }
-          ]
         }
       },
       {

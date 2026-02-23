@@ -150,7 +150,6 @@
         "source": "Sprint",
         "source-type": "name",
         "target": "System.IterationPath",
-        "for": "Bug, Product Backlog Item, Task, Story",
         "mapper": "MapSprint"
       },
       {

@@ -8,3 +8,11 @@ Ali Sahin = Ali Sahin
 Aleksandr Koltakov = Aleksadr Koltakov
 Jorge Luiz Brandäo = Jorge Luiz Brandäo
 evalyne.mungai@dreso.com = evalyne.mungai@dreso.com
+Aleksander Dmitrijev = Aleksander Dmitrijev
+paul.koch@dreso.com=paul.koch@dreso.com
+ivan.papic@dreso.com=ivan.papic@dreso.com
+Aleksandr Karki=Aleksandr Karki
+Viktor Teterin=Viktor Teterin
+Alexey Skachok=Alexey Skachok
+Aleksey Garukin=Aleksey Garukin
+
